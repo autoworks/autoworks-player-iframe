@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export -o docs && git add docs && git commit -m \"chore: regen site\" && git push origin main"
   },
   "dependencies": {
+    "autoworks-player": "ssh://git@github.com:clocklimited/AutoWorksPlayer.git#feature/build-lib",
     "next": "9.5.5",
     "react": "17.0.0",
     "react-dom": "17.0.0"
