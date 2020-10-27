@@ -1537,7 +1537,7 @@ atob@^2.1.2:
 
 "autoworks-player@ssh://git@github.com:clocklimited/AutoWorksPlayer.git#feature/build-lib":
   version "0.1.0"
-  resolved "ssh://git@github.com:clocklimited/AutoWorksPlayer.git#ed2d1b6a65ec3f45591e62e09fe18446183c9968"
+  resolved "ssh://git@github.com:clocklimited/AutoWorksPlayer.git#cec28db1331c2d8be1fde1c73267040291d0ca89"
   dependencies:
     backline-grid "^1.0.1"
     backline-mixins "^1.0.3"
