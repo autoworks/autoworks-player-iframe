@@ -1,8 +1,8 @@
 const config = {
-  colors: {
-    accent: '#984eab',
-    accentText: '#fff'
-  },
+  // colors: {
+  //   accent: '#984eab',
+  //   accentText: '#fff'
+  // },
 
   infoHeading: 'Volkswagen Tiguan',
   infoText: 'SWB SEL 2.0 TDI 4Motion',

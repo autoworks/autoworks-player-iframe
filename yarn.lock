@@ -1535,13 +1535,12 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-"autoworks-player@ssh://git@github.com:clocklimited/AutoWorksPlayer.git#feature/build-lib":
-  version "0.1.0"
-  resolved "ssh://git@github.com:clocklimited/AutoWorksPlayer.git#cec28db1331c2d8be1fde1c73267040291d0ca89"
+"autoworks-player@ssh://git@github.com:clocklimited/AutoWorksPlayer.git":
+  version "0.1.6"
+  resolved "ssh://git@github.com:clocklimited/AutoWorksPlayer.git#3e9880d5031c5a30cd3c116a5e2c7915da28d502"
   dependencies:
     backline-grid "^1.0.1"
     backline-mixins "^1.0.3"
-    backline-normalize "^1.0.1"
     classnames "^2.2.6"
     focus-trap-react "^8.1.0"
     postcss-flexbugs-fixes "^4.2.1"
@@ -1631,11 +1630,6 @@ backline-mixins@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/backline-mixins/-/backline-mixins-1.0.3.tgz#c322dec86613b17753ce8fee50d20bef00e8111b"
   integrity sha512-d/Ab4Az5P2QLgca120i4LK9LknHdS3tVdyS3XJIJ2bHeLKfCXXZIzy3p9XyyefYCHaRATuhoLGWQHkW+LEShGw==
-
-backline-normalize@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/backline-normalize/-/backline-normalize-1.0.1.tgz#5c75ac8d9e7fa6ddb8f7f2e0d336138e17a4d7e0"
-  integrity sha512-+bfs58uOazIGe2IcbUgXJxCQCNvOOxeSz8Rv7L+h4VIPXRjsut34Mj4Kp7oASG8IzDa7S850sTAhnHL3IFSl8Q==
 
 balanced-match@^1.0.0:
   version "1.0.0"
