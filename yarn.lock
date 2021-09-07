@@ -1535,9 +1535,9 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-"autoworks-player@ssh://git@github.com:autoworks/Player.git":
+"autoworks-player@https://github.com/autoworks/Player.git":
   version "0.1.6"
-  resolved "ssh://git@github.com:autoworks/Player.git#f6413f14170e7bbc772fa67fcdfdecedb00b7cee"
+  resolved "https://github.com/autoworks/Player.git#2c64a2d9f2b7f554621ecd62d0d18f997a2bde4d"
   dependencies:
     backline-grid "^1.0.1"
     backline-mixins "^1.0.3"
