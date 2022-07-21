@@ -15,7 +15,9 @@ export default function IFrameDemo() {
     const iframe = document.getElementById('demo')
 
     function onMsg(e) {
-      if (!e.origin !== 'https://player.auto.works') return
+      // here we're using location.origin because that's where our iframe location is
+      // however you will likely want to use "https://player.auto.works"
+      if (e.origin !== window.location.origin) return
       if (e.data.type === 'ready') {
         iframe.contentWindow.postMessage(options, '*')
       }
