@@ -58,6 +58,10 @@ const AutoWorksPlayerIFrame = () => {
     }
   }, [])
 
+  useEffect(() => {
+    onResize()
+  }, [options])
+
   if (!options) {
     return <div />
   }
